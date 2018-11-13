@@ -1,12 +1,12 @@
-This WebApp will accept HTTP GET requests at 
+A simple WebApp that will accept HTTP GET requests at 
 
 `http://localhost:8080/address/{hashValue}`
 
-that will use the Blockchain Data API at 
+which will use the Blockchain Data API at 
 
 `https://blockchain.info/api/blockchain_api`
 
-and respond with a JSON representation of all unspent transactions for the given address of a blockchain network:
+and provide a JSON representation response of all unspent transactions for the given address of a blockchain network:
 
 `{  
    "outputs":[  
